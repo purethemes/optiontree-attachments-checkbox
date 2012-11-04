@@ -11,7 +11,7 @@ License: GPL2
 
 
 function post_attachment_checkbox_type($types) {
-	$new_option = array('post_attachments_checkbox' => 'Post Attachments Checkbox DUPA');
+	$new_option = array('post_attachments_checkbox' => 'Attachments Checkbox');
 	$result = array_merge($types, $new_option);
 	return $result;
 }

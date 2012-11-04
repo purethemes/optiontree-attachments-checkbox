@@ -29,3 +29,12 @@ You need to use OptionTree in "theme mode" and with meta boxes. Just add to your
 
   ot_register_meta_box( $meta_boxes );    
 ```
+
+```php
+$excluded = get_post_meta($post->ID, 'exluded_photos', true);
+```
+returns array with ID of selected images.
+
+
+
+![alt text](http://i.imgur.com/AU9gR.png "Example implementation")
